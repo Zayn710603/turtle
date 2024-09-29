@@ -6,11 +6,11 @@ canvas.height = 400;
 
 let turtleX = 100; // 烏龜的初始X位置
 let turtleY = canvas.height / 2; // 烏龜的初始Y位置
-const turtleSpeed = 20;
+const turtleSpeed = 100;
 let obstacles = [];
 const obstacleWidth = 20;
 const obstacleHeight = 100;
-const obstacleSpeed = 3;
+const obstacleSpeed = 1;
 let gameRunning = false;
 
 // 畫烏龜
